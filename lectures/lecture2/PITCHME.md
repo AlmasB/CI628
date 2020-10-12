@@ -54,7 +54,7 @@ Point2 * p = new Point2(0, 0);
 
 ---
 
-#### Activity - Space Invaders / Breakout code
+#### Activity
 
 Let's examine some memory allocations in Java and in C++.
 
@@ -247,7 +247,7 @@ int* someFunction() {
 #include <string>
 
 int main() {
-    std::shared_ptr<std::string> s = std::make_shared<std::string>(“Hello World“);
+    std::shared_ptr<std::string> s = std::shared_ptr<std::string>(“Hello World“);
     return 0;
 }
 ```
@@ -263,7 +263,7 @@ A bit too verbose!
 #include <string>
 
 int main() {
-    auto s = std::make_shared<std::string>(“Hello World“);
+    auto s = std::shared_ptr<std::string>(“Hello World“);
     return 0;
 }
 ```
@@ -281,7 +281,7 @@ Not always recommended, but OK for our simple programs.
 using namespace std;
 
 int main() {
-    auto s = make_shared<string>(“Hello World“);
+    auto s = shared_ptr<string>(“Hello World“);
     return 0;
 }
 ```
