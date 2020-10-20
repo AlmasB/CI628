@@ -34,7 +34,7 @@ Note: take breaks at regular intervals between tasks.
 
 Note: take breaks at regular intervals between tasks.
 
-1. Read the assignment brief. (yes, again :) )
+1. Read the assignment brief (particularly the assessment criteria).
 1. Create a Word (or alternative) document. Add a title page.
 1. Add a Table of Contents page.
 1. Add another page with a few sentences related to your game vision idea and how it might be implemented.
