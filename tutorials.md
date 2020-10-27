@@ -52,8 +52,8 @@ Note: take breaks at regular intervals between tasks.
 
 1. (Optional but recommended) Create a fork of CI628-PongClient under your GitHub account. This is where you will be developing your assignment work. Remember to back up, **computer scientists do not lose data!**
 1. Last week you started reading a bit of the codebase. Now read through all of the codebase and consider where the major parts, such as the main loop, graphics drawing and input, are located.
-1. By the end of this tutorial, you should be able to build, run and extend the given code. Add some code to the assignment code base, such as the one shown in the tutorial demonstration. It is important that the above statement is true, so ensure it is by next week.
-1. Start adding empty classes that you might need in the game: e.g. Bat, Ball, or generic GameObject, etc.
+1. By the end of this tutorial, you should be able to build, run and extend the given code. As the one shown in the lecture demonstration, ensure you can easily navigate all parts of the code. If you missed the lecture, it's available from Teams. It is important that by next week you know exactly where to write new code and how to extend existing code.
+1. Start adding empty classes that you might need in the game: e.g. Bat, Ball, or generic GameObject, etc. These go into MyGame.h/.cpp. Note that creating classes such as Player (which wraps SDL types) can help demonstrate you know OO principles in game development, which in turn will attract higher marks, rather than using built-in SDL types, such as SDL_Rect.
 
 ---
 
