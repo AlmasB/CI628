@@ -7,19 +7,6 @@
 
 ---
 
-#### Assumptions
-
-You know:
-
-- C++ basics
-- Memory management
-- Smart pointers
-- Classes
-
-If the above isn't true, we can't proceed.
-
----
-
 #### Game App Timeline
 
 What happens from the moment you run a game and until it exits?
@@ -67,8 +54,7 @@ hardware, e.g. graphics, input devices, audio devices, networking, etc.
 
 #### Compiling and linking with SDL
 
-We have to tell the compiler where SDL2 is (depending on the installation)
-and how to link against it
+We have to tell the compiler where SDL2 headers are (depending on the installation) and how to link against SDL2.
 
 ```
 $ g++ -c Main.cpp -I /usr/include/SDL2/
@@ -91,11 +77,12 @@ Note the similarity to the MVC pattern.
 
 ---
 
-#### Game Space vs Screen Space
+#### Multiplayer Architecture
 
-- Positive Y axis
-- Not always 1 to 1 mapping
-- Visible area (viewport into _infinite_ world)
+- Server is the Model
+- Client is the View
+
+More on networking architecture next week!
 
 ---
 
@@ -118,7 +105,7 @@ Game code -> SDL -> OpenGL / Direct3d -> Graphics Driver -> Graphics Hardware
 
 #### How to Manage Time (Case Study)
 
-- Design and build Pong clone
+- Design and build Multiplayer Pong clone
 
 ---
 
@@ -168,15 +155,6 @@ Game code -> SDL -> OpenGL / Direct3d -> Graphics Driver -> Graphics Hardware
 - Can implement 100% now? - Too easy
 - Don't know how to implement at all? - Too complex
 - Roughly 50-50 know-don't know? - Probably a good idea
-
----
-
-#### Game Architecture (Start - Exit)
-
-- Entry point - user clicks icon
-- Init / Loop
-- Exit - the application closes
-
 ---
 
 #### Conclusion
