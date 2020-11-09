@@ -80,12 +80,6 @@ Server-Client: (m-n)
 
 ---
 
-#### Question Time
-
-We'll go through assignment code and I will ask you (each student alphabetically) questions about important LoC.
-
----
-
 #### Implementation Details 1
 
 "Dumb" client
@@ -106,8 +100,7 @@ Client interpolates movements based on input.
 
 Client replication
 
-Objects and data are replicated on the client based
-on replication specification.
+Objects and data are replicated on the client based on replication specification.
 For example, properties are only replicated when needed.
 
 ---

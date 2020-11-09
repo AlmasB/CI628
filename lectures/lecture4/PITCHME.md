@@ -3,7 +3,7 @@
 ### Lecture 4 - Multiplayer Games
 
 - Introduction to multiplayer
-- Detailed overview of assignment code
+- Detailed overview of assignment code (C++ / Java)
 
 ---
 
@@ -72,17 +72,12 @@ Question: what problems do we deal with when writing a network based game?
 We will now in detail (each LoC!) explore the code. Your task is to:
 
 - read the brief
-- Really *Read* the brief
 - ask questions
-- ASK questions
-- **ASK** questions now, to save yourself *a lot* of future time
-
-Should probably record this bit, if not already recording.
 
 ---
 
 #### Conclusion
 
 - Do not underestimate the complexity of multiplayer
-- Just to be safe, read the brief again :)
+- Make sure you are comfortable with the given code
 
