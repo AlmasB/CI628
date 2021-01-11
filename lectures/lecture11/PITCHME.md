@@ -8,13 +8,13 @@
 
 #### Requirements
 
-- Written in JS or superset of JS
-- Has a genre
-- Designed for mobile
-- Physics / Collision Detection
-- AI
-- High score
-- Difficulty
+- C++
+- Based on the CI628-PongClient demo provided + CI628-PongServer
+- Submissions not based on the demo or C++ will not be accepted
+
+- Report
+- Video
+- Re-check assignment brief
 
 ---
 
@@ -42,8 +42,8 @@ If not your work, **reference** it:
 - Remember and, importantly, **use** good practices
 - Naming conventions
 - Only valuable comments
-- Short and simple classes / functions (_monadic_), but avoid contrived classes
-- Make sure it works (test using GitHub pages and Uni PC) -- we won't fix it for you
+- Short and simple classes / functions, but avoid contrived classes
+- Make sure it works -- I will not be debugging the submission
 - Structure your code **and** your assets
 
 ---
@@ -62,8 +62,5 @@ If not your work, **reference** it:
 
 #### Submission
 
-- Directory structure on StudentCentral
 - Follow the **instructions**, if incorrect format -- may not be accepted
-- Don't submit files we didn't ask, e.g. mac OS hidden files, `.git` directory or assets you didn't use
-- Don't wait till the last minute -- tech may break, aka 40% cap (*D-*)
-- If you apply for an extension -- inform ASAP
+- Don't submit files that aren't asked for, e.g. mac OS hidden files, `.git` directory or assets you didn't use
