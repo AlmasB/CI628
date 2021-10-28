@@ -77,7 +77,7 @@ There is no code addition today to allow everyone to catch up.
 
 1. Check you are keeping up with the workload and know what needs to be done and when. If in doubt, ask!
 1. Pick a multiplayer game you've played recently. Read about its implementation, specifically with respect to how they handle multiplayer data.
-1. Find a YouTube or GDC video on multiplayer programming. Watch it fully and write 2-3 sentence summary of what you took away from that video in the Tutorials channel on Teams.
+1. Find a YouTube or GDC video on multiplayer programming. Watch it fully and write 2-3 sentence summary of what you took away from that video in your report.
 1. (advanced, optional) Check SDL_net [example demos](https://www.libsdl.org/projects/SDL_net/docs/demos/) and read through the code. Is there something interesting, is there something you can use to potentially modify the assignment game?
 
 ---
@@ -99,7 +99,7 @@ Note: take breaks at regular intervals between tasks.
 
 Note: take breaks at regular intervals between tasks.
 
-You should now have enough working knowledge of the assignment code to start experimenting with your game idea. Start adding images, fonts, sounds and other visual and gameplay aspects. Current and future workshops (incl. pre-recorded materials) will help you with _some_ of these aspects. The others are for you to explore independently.
+You should now have enough working knowledge of the assignment code to start experimenting with your game idea. Start adding images, fonts, sounds and other visual and gameplay aspects. Current and future workshops will help you with _some_ of these aspects. The others are for you to explore independently.
 
 All tutorials from now will focus purely on the assignment game to ensure you can submit before the deadline. Ensure you spend tutorial time wisely and always refer to the assignment brief to see where/how you can gain marks.
 
