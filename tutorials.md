@@ -78,7 +78,7 @@ There is no code addition today to allow everyone to catch up.
 1. Check you are keeping up with the workload and know what needs to be done and when. If in doubt, ask!
 1. Pick a multiplayer game you've played recently. Read about its implementation, specifically with respect to how they handle multiplayer data.
 1. Find a YouTube or GDC video on multiplayer programming. Watch it fully and write 2-3 sentence summary of what you took away from that video in your report.
-1. (advanced, optional) Check SDL_net [example demos](https://www.libsdl.org/projects/SDL_net/docs/demos/) and read through the code. Is there something interesting, is there something you can use to potentially modify the assignment game?
+1. (advanced, optional) Check SDL_net [API](https://wiki.libsdl.org/SDL_net/CategoryAPI) and read through the code. Is there something interesting, is there something you can use to potentially modify the assignment game?
 
 ---
 
